@@ -1,0 +1,26 @@
+staff_id,event,frame,detail,value
+1,start,378,track 116,
+1,lost,390,"last track 116; no match for 2.0s; nearest NEW track to predicted position: 4.69 sizes (track 142, frame 410); nearest PRE-EXISTING: 1.47 sizes (track 114, frame 391); gate cap 1.0 sizes",
+2,start,458,track 154,
+2,handover,519,"track 154->194 gap=46f moved=2.56 sizes, off prediction by 0.18 sizes",0.18246129196992825
+3,start,551,track 195,
+3,handover,585,"track 195->208 gap=24f moved=2.37 sizes, off prediction by 0.34 sizes",0.34410457412459344
+2,lost,540,"last track 194; no match for 2.0s; nearest NEW track to predicted position: 1.25 sizes (track 208, frame 590); nearest PRE-EXISTING: 1.92 sizes (track 195, frame 561); gate cap 1.0 sizes",
+3,handover,758,"track 208->263 gap=48f moved=0.07 sizes, off prediction by 0.44 sizes",0.43877763700262423
+3,handover,798,"track 263->267 gap=10f moved=0.34 sizes, off prediction by 0.36 sizes",0.3586118681026551
+4,start,851,track 284,
+3,lost,815,"last track 267; no match for 2.0s; nearest NEW track to predicted position: 0.90 sizes (track 284, frame 863); nearest PRE-EXISTING: 1.82 sizes (track 114, frame 866); gate cap 1.0 sizes",
+4,handover,880,"track 284->297 gap=17f moved=2.66 sizes, off prediction by 0.97 sizes",0.966328823796475
+4,handover,893,"track 297->307 gap=2f moved=0.17 sizes, off prediction by 0.20 sizes",0.20280481993976113
+4,handover,913,"track 307->315 gap=12f moved=1.97 sizes, off prediction by 1.00 sizes",0.9983149409637616
+5,start,968,track 333,
+5,handover,992,"track 333->344 gap=13f moved=1.52 sizes, off prediction by 0.77 sizes",0.768985010078989
+4,lost,943,"last track 315; no match for 2.0s; nearest NEW track to predicted position: 1.38 sizes (track 333, frame 964); nearest PRE-EXISTING: none in window; gate cap 1.0 sizes",
+5,handover,1040,"track 344->379 gap=11f moved=1.89 sizes, off prediction by 0.65 sizes",0.6522982911430903
+5,lost,1047,"last track 379; no match for 2.0s; nearest NEW track to predicted position: 1.94 sizes (track 392, frame 1065); nearest PRE-EXISTING: 4.87 sizes (track 364, frame 1065); gate cap 1.0 sizes",
+6,start,1105,track 406,
+6,handover,1138,"track 406->438 gap=14f moved=2.35 sizes, off prediction by 0.44 sizes",0.43538172450001317
+6,lost,1138,"last track 438; no match for 2.0s; nearest NEW track to predicted position: 4.56 sizes (track 451, frame 1176); nearest PRE-EXISTING: 2.78 sizes (track 364, frame 1139); gate cap 1.0 sizes",
+7,start,1198,track 451,
+7,handover,1230,"track 451->499 gap=19f moved=2.53 sizes, off prediction by 0.61 sizes",0.6093370249519752
+7,lost,1240,"last track 499; no match for 2.0s; nearest NEW track to predicted position: 1.44 sizes (track 519, frame 1261); nearest PRE-EXISTING: 3.09 sizes (track 364, frame 1276); gate cap 1.0 sizes",

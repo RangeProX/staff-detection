@@ -1,0 +1,34 @@
+# Environment / caches
+.venv/
+__pycache__/
+*.pyc
+*.cache
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Assessor footage and anything rendered from it
+videos/
+*.mp4
+
+# Weights: only the trained tag detector is committed
+*.pt
+!models/tag_v4.pt
+
+# Ultralytics training output (curated copies live in training/)
+runs/
+
+# Dataset: labels committed, frames are extracted from the video
+dataset/images/
+dataset/orphans/
+
+# Generated output (frozen copies live in results/); keep hand-made ground truth
+outputs/*
+!outputs/sample/
+outputs/sample/*
+!outputs/sample/ground_truth.csv
+!outputs/sample/holdout.csv
+
+# Written report is submitted separately
+report.pdf
